@@ -9,7 +9,9 @@
 <body>
     <form id="form1" runat="server">
         <div>
-        </div>
+            <input id="Button1" type="button" value="button" /></div>
     </form>
+    <p>
+        <input id="Button2" type="button" value="button" /></p>
 </body>
 </html>
