@@ -11,6 +11,7 @@
         <div>
             <input id="Button1" type="button" value="button" /></div>
         <input id="Button1" type="button" value="button" />
+        <input id="Button1" type="button" value="button" />
     </form>
     <p>
         <input id="Button2" type="button" value="button" /></p>
