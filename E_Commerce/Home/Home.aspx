@@ -10,6 +10,7 @@
     <form id="form1" runat="server">
         <div>
             <input id="Button1" type="button" value="button" /></div>
+        <input id="Button1" type="button" value="button" />
     </form>
     <p>
         <input id="Button2" type="button" value="button" /></p>
