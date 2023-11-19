@@ -5,15 +5,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <link href="../Content/bootstrap.rtl.min.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            <input id="Button1" type="button" value="button" /></div>
-        <input id="Button1" type="button" value="button" />
-        
+         
+        <a class="navbar navbar-expand-lg navbar-light">hello</a>
     </form>
-    <p>
-        <input id="Button2" type="button" value="button" /></p>
+   
 </body>
 </html>
