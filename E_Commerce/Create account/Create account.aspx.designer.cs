@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace E_Commerce.Create_account
+namespace E_Commerce.CreateAccount
 {
 
 
-    public partial class Create_account
+    public partial class CreateAccount
     {
 
         /// <summary>
