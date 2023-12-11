@@ -57,3 +57,4 @@ C:\Users\mrabd\Desktop\EP\E_Commerce\obj\Debug\E_Commerce.csproj.CoreCompileInpu
 C:\Users\mrabd\Desktop\EP\E_Commerce\obj\Debug\E_Commerce.csproj.CopyComplete
 C:\Users\mrabd\Desktop\EP\E_Commerce\obj\Debug\E_Commerce.dll
 C:\Users\mrabd\Desktop\EP\E_Commerce\obj\Debug\E_Commerce.pdb
+C:\Users\mrabd\Desktop\EP\E_Commerce\bin\ShutterPrism.MVC.FontAwesome.dll
