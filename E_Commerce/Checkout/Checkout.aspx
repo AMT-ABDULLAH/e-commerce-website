@@ -7,6 +7,11 @@
     {
 
     }
+
+    protected void txtAddress_TextChanged(object sender, EventArgs e)
+    {
+
+    }
 </script>
 
 
@@ -41,7 +46,7 @@
                     </div>
                     <div class="form-group">
                         <label for="address">Address:</label>
-                        <asp:TextBox ID="txtAddress" runat="server" CssClass="form-control" required></asp:TextBox>
+                        <asp:TextBox ID="txtAddress" runat="server" CssClass="form-control" required OnTextChanged="txtAddress_TextChanged"></asp:TextBox>
                     </div>
 
                     <asp:Button ID="btnSubmit" runat="server" Text="Place Order" CssClass="btn btn-primary" OnClick="btnSubmit_Click" />

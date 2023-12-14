@@ -39,15 +39,17 @@
                                     ErrorMessage="Please enter a password" Display="Dynamic" CssClass="text-danger" />
 
                             </div>
-                            <div class="form-group text-center">
-                                <asp:Button runat="server" ID="btnCreateAccount" OnClick="btnCreateAccount_Click"
-                                    CssClass="btn btn-success btn-block" Text="CREATE ACCOUNT" />
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <p>
+            &nbsp;</p>
+        <p>
+           <asp:Button ID="myButton" runat="server" Text="Create Account" CssClass="btn btn-primary" OnClick="myButton_Click" />
+
+        </p>
     </form>
 </body>
 </html>
