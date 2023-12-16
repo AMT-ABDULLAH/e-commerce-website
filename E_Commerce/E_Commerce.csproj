@@ -94,12 +94,22 @@
     <Content Include="Home\Home.aspx" />
     <Content Include="imgs\25223f220406483f93b101ce52ca6dc2.png" />
     <Content Include="imgs\Account.png" />
+    <Content Include="imgs\Elogo.png" />
     <Content Include="imgs\favorite.png" />
+    <Content Include="imgs\Laptops\Laptop1\lap1.jpg" />
+    <Content Include="imgs\Laptops\Laptop2\lap1.jpg" />
+    <Content Include="imgs\list.png" />
     <Content Include="imgs\logo.png" />
     <Content Include="imgs\pc.jpg" />
+    <Content Include="imgs\PCs\PC1\PC 1.jpg" />
+    <Content Include="imgs\PCs\PC2\PC11.jpg" />
+    <Content Include="imgs\Phones\Phone1\p1.jpg" />
+    <Content Include="imgs\Phones\Phone2\p1.jpg" />
     <Content Include="imgs\pmu.png" />
     <Content Include="imgs\pmul.png" />
     <Content Include="imgs\shoppingCart.png" />
+    <Content Include="imgs\Tablets\tablet1\tap1.jpg" />
+    <Content Include="imgs\Tablets\tablet2\tap1.jpg" />
     <Content Include="MDB5\css\mdb.dark.min.css" />
     <Content Include="MDB5\css\mdb.dark.rtl.min.css" />
     <Content Include="MDB5\css\mdb.min.css" />
@@ -227,7 +237,20 @@
     <Content Include="MDB5\src\js\mdb\util\touch\index.js" />
     <Content Include="MDB5\src\js\mdb\util\touch\swipe.js" />
     <Content Include="MDB5\src\js\mdb\util\touch\touchUtil.js" />
+    <Content Include="Pages\Contact.aspx" />
+    <Content Include="Pages\FAQ.aspx" />
+    <Content Include="Pages\Shipping.aspx" />
+    <Content Include="Pages\Warranty.aspx" />
+    <Content Include="productDetails\lap1.aspx" />
+    <Content Include="productDetails\lap2.aspx" />
+    <Content Include="productDetails\pc1.aspx" />
+    <Content Include="productDetails\pc2.aspx" />
+    <Content Include="productDetails\phone1.aspx" />
+    <Content Include="productDetails\phone2.aspx" />
     <Content Include="productDetails\productDetails.aspx" />
+    <Content Include="productDetails\Products.aspx" />
+    <Content Include="productDetails\tap1.aspx" />
+    <Content Include="productDetails\tap2.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -235,6 +258,7 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="shopCart\shopCart.aspx" />
+    <Content Include="shopCart\shoppingCart.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
@@ -260,12 +284,103 @@
     <Compile Include="Home\Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\FAQ.aspx.cs">
+      <DependentUpon>FAQ.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\FAQ.aspx.designer.cs">
+      <DependentUpon>FAQ.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Shipping.aspx.cs">
+      <DependentUpon>Shipping.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Shipping.aspx.designer.cs">
+      <DependentUpon>Shipping.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Warranty.aspx.cs">
+      <DependentUpon>Warranty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Warranty.aspx.designer.cs">
+      <DependentUpon>Warranty.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="productDetails\lap1.aspx.cs">
+      <DependentUpon>lap1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="productDetails\lap1.aspx.designer.cs">
+      <DependentUpon>lap1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="productDetails\lap2.aspx.cs">
+      <DependentUpon>lap2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="productDetails\lap2.aspx.designer.cs">
+      <DependentUpon>lap2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="productDetails\pc1.aspx.cs">
+      <DependentUpon>pc1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="productDetails\pc1.aspx.designer.cs">
+      <DependentUpon>pc1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="productDetails\pc2.aspx.cs">
+      <DependentUpon>pc2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="productDetails\pc2.aspx.designer.cs">
+      <DependentUpon>pc2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="productDetails\phone1.aspx.cs">
+      <DependentUpon>phone1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="productDetails\phone1.aspx.designer.cs">
+      <DependentUpon>phone1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="productDetails\phone2.aspx.cs">
+      <DependentUpon>phone2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="productDetails\phone2.aspx.designer.cs">
+      <DependentUpon>phone2.aspx</DependentUpon>
+    </Compile>
     <Compile Include="productDetails\productDetails.aspx.cs">
       <DependentUpon>productDetails.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="productDetails\productDetails.aspx.designer.cs">
       <DependentUpon>productDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="productDetails\Products.aspx.cs">
+      <DependentUpon>Products.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="productDetails\Products.aspx.designer.cs">
+      <DependentUpon>Products.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="productDetails\tap1.aspx.cs">
+      <DependentUpon>tap1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="productDetails\tap1.aspx.designer.cs">
+      <DependentUpon>tap1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="productDetails\tap2.aspx.cs">
+      <DependentUpon>tap2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="productDetails\tap2.aspx.designer.cs">
+      <DependentUpon>tap2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="shopCart\shopCart.aspx.cs">
@@ -274,6 +389,13 @@
     </Compile>
     <Compile Include="shopCart\shopCart.aspx.designer.cs">
       <DependentUpon>shopCart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="shopCart\shoppingCart.aspx.cs">
+      <DependentUpon>shoppingCart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="shopCart\shoppingCart.aspx.designer.cs">
+      <DependentUpon>shoppingCart.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>

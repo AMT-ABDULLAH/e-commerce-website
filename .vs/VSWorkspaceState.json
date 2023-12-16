@@ -1,8 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\E_Commerce"
+    "\\E_Commerce",
+    "\\E_Commerce\\Home",
+    "\\E_Commerce\\imgs",
+    "\\E_Commerce\\MDB5\\css",
+    "\\E_Commerce\\productDetails"
   ],
-  "SelectedNode": "\\E_Commerce\\WebForm1.aspx",
+  "SelectedNode": "\\E_Commerce",
   "PreviewInSolutionExplorer": false
 }
