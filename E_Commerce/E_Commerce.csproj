@@ -70,6 +70,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Register.mdf" />
+    <Content Include="App_Data\Register_log.ldf">
+      <DependentUpon>Register.mdf</DependentUpon>
+    </Content>
     <Content Include="Checkout\Checkout.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -239,7 +243,6 @@
     <Content Include="MDB5\src\js\mdb\util\touch\touchUtil.js" />
     <Content Include="Pages\Contact.aspx" />
     <Content Include="Pages\FAQ.aspx" />
-    <Content Include="Pages\Shipping.aspx" />
     <Content Include="Pages\Warranty.aspx" />
     <Content Include="productDetails\lap1.aspx" />
     <Content Include="productDetails\lap2.aspx" />
@@ -247,7 +250,6 @@
     <Content Include="productDetails\pc2.aspx" />
     <Content Include="productDetails\phone1.aspx" />
     <Content Include="productDetails\phone2.aspx" />
-    <Content Include="productDetails\productDetails.aspx" />
     <Content Include="productDetails\Products.aspx" />
     <Content Include="productDetails\tap1.aspx" />
     <Content Include="productDetails\tap2.aspx" />
@@ -259,6 +261,7 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="shopCart\shopCart.aspx" />
     <Content Include="shopCart\shoppingCart.aspx" />
+    <Content Include="Testing.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
@@ -297,13 +300,6 @@
     </Compile>
     <Compile Include="Pages\FAQ.aspx.designer.cs">
       <DependentUpon>FAQ.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\Shipping.aspx.cs">
-      <DependentUpon>Shipping.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Pages\Shipping.aspx.designer.cs">
-      <DependentUpon>Shipping.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Warranty.aspx.cs">
       <DependentUpon>Warranty.aspx</DependentUpon>
@@ -354,13 +350,6 @@
     <Compile Include="productDetails\phone2.aspx.designer.cs">
       <DependentUpon>phone2.aspx</DependentUpon>
     </Compile>
-    <Compile Include="productDetails\productDetails.aspx.cs">
-      <DependentUpon>productDetails.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="productDetails\productDetails.aspx.designer.cs">
-      <DependentUpon>productDetails.aspx</DependentUpon>
-    </Compile>
     <Compile Include="productDetails\Products.aspx.cs">
       <DependentUpon>Products.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -403,6 +392,13 @@
     </Compile>
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Testing.aspx.cs">
+      <DependentUpon>Testing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Testing.aspx.designer.cs">
+      <DependentUpon>Testing.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>

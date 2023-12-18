@@ -61,9 +61,6 @@
                             <!-- Dropdown menu -->
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li>
-                                    <a class="dropdown-item" href="#">Shipping</a>
-                                </li>
-                                <li>
                                     <a class="dropdown-item" href="#">FAQ</a>
                                 </li>
                                 <li>
@@ -79,7 +76,7 @@
                         </li>
                     </ul>
 
-                   <!-- Shopcart, create acc dropdownlist -->
+                <!-- Shopcart, create acc dropdownlist -->
             <ul class="navbar-nav ml-auto d-flex flex-row">
                 <!-- Icons -->
                 <li class="nav-item me-3 me-lg-0">
@@ -97,7 +94,7 @@
                             <a class="dropdown-item" href="#">Login</a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="#">Register</a>
+                            <a class="dropdown-item" href="..//Testing.aspx">Register</a>
                         </li>
                     </ul>
                 </li>
